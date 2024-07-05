@@ -4,7 +4,7 @@ import csv
 def fetch_and_save_data():
     # Path to the CSV file with stock symbols
     symbols_file_path = '/home/hans/1dag/financial_symbol.csv'
-    
+    # hhh
     # Open and read the stock symbols from the CSV file
     with open(symbols_file_path, mode='r', newline='') as symbols_file:
         reader = csv.reader(symbols_file)
