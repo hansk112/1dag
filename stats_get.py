@@ -4,7 +4,7 @@ import urllib.request, json
 # Example Catalogue request
 # This code was kindly supplied by Ruben Castaing
 
-api_key = "c242be494a7e4530a2d633554afcf049"
+api_key = "c242be494a7e45"
 
 try:
     url = "https://api.stats.govt.nz/opendata/v1/data.json"
