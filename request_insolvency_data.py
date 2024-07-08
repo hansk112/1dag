@@ -2,8 +2,10 @@ import requests
 import json
 
 # Set up the API URL and parameters
-api_url = "https://services.api.business.govt.nz/insolvency-trustee-services/v1/insolvent-estates"
-api_key = "<your_api_key_here>"  # Replace <your_api_key_here> with your actual API key
+api_url = "https://services.api.business.govt.nz/insolvency-trustee-services/v1/insolvent-estates/"
+api_key = "0883dbf5f9fe4e14adf060a2a5b08ec8"  # Replace <your_api_key_here> with your actual API key
+
+api = "c242be494a7e4530a2d633554afcf049"
 
 # It's important to replace "<your_api_key_here>" with your actual API key.
 headers = {
@@ -13,8 +15,8 @@ headers = {
 
 # Example query parameters
 params = {
-    "search": "company_name",  # Replace "company_name" with the actual company name you're searching for
-    "pageSize": 10,  # Number of results to return
+    "search": "CONEC LIMITED",  # Replace "company_name" with the actual company name you're searching for
+    "pageSize": 10,  # Number of results to return<your_api_key_here>
     "pageNumber": 1  # Page number
 }
 
